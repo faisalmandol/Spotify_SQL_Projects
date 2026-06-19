@@ -83,13 +83,13 @@ from spotify;
 
 # Data Analysis - Easy Category -------
 
-/*
+
 1) Retrieve the names of all tracks that have more than 1 billion streams.
 2) List all albums along with their respective artists.
 3) Get the total number of comments for tracks where licensed = TRUE.
 4) Find all tracks that belong to the album type single.
 5) Count the total number of tracks by each artist.
-*/
+
 
 # 1) Retrieve the names of all tracks that have more than 1 billion streams. 
 ```sql
@@ -167,7 +167,7 @@ select album, sum(views)
 from spotify 
 group by album; 
 ```
-# Data Analysis -- Advanced Level ----------------------------------------------
+# Data Analysis -- Advanced Level --------------
 
 # 1) Find the top 3 most-viewed tracks for each artist using window functions.
 ```sql
