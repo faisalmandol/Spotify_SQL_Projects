@@ -221,7 +221,7 @@ select track,
 	   sum(likes) over(order by views) as cumulative_likes
 from spotify;	
 ```
-# Query Optimization ---------------------------------------------------------------
+# Query Optimization ------------
 ```sql
 explain analyze
 select artist, 
