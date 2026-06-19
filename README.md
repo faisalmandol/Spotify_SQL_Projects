@@ -130,13 +130,11 @@ order by tracks desc;
 
 # Data Analysis -- Medium Category ------------------
 
-/*
+
 1) Calculate the average danceability of tracks in each album.
 2) Find the top 5 tracks with the highest energy values.
 3) List all tracks along with their views and likes where official_video = TRUE.
 4) For each album, calculate the total views of all associated tracks.
-5) Retrieve the track names that have been streamed on Spotify more than YouTube.
-*/
 
 # 1) Calculate the average danceability of tracks in each album.
 ```sql
