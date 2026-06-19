@@ -236,5 +236,5 @@ limit 20
 
 create index artist_index on spotify(artist);
 ```
-(https://github.com/faisalmandol/Spotify_SQL_Projects/blob/main/Explaining%20Index.png)
+![Index_Photo](https://github.com/faisalmandol/Spotify_SQL_Projects/blob/main/Explaining%20Index.png)
 # End of the Project!
